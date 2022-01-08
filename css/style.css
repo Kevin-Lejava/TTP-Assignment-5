@@ -1,0 +1,20 @@
+.col-sm{
+    height: 120px;
+    border: 1px solid;
+}
+
+.color-red{
+    background-color: red;
+}
+
+.color-blue{
+    background-color:blue;
+}
+
+.color-green{
+    background-color: green;
+}
+
+.color-empty{
+    background-color:transparent;
+}
