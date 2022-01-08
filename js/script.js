@@ -1,12 +1,12 @@
 function addRow() {
-    document.querySelector(".row").insertAdjacentHTML("afterend", "<div class='row'><div class='col-sm color-empty' onClick='changeColor(event)'></div>");
+    document.querySelector(".row").insertAdjacentHTML("afterend", "<div class='row'><div class='col-sm color-empty' onmouseover='changeColor(event)'></div>");
 }
 
 function addColumn() {
     let rows = document.querySelectorAll(".row");
 
     for (let i = 0; i < rows.length; i++)
-        rows[i].insertAdjacentHTML("beforeend", "<div class='col-sm color-empty' onClick='changeColor(event)'>");
+        rows[i].insertAdjacentHTML("beforeend", "<div class='col-sm color-empty' onmouseover='changeColor(event)'>");
 
 }
 
